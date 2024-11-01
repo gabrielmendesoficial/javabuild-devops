@@ -28,4 +28,4 @@ steps:
       azureSubscription: 'Azure for Students (ac9ade9d-773a-4b2c-a1c6-424c1d25234a)'
       appType: 'webApp'
       WebAppName: 'cgenius'
-      package: 'D:\a\1\s\target\maindev-0.0.1-SNAPSHOT.war'
+      package: 'D:\a\1\s\target\maindev-0.0.1-SNAPSHOT.jar'
