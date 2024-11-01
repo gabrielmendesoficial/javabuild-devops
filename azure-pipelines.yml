@@ -18,13 +18,13 @@ steps:
 
   - script: |
       echo "Listing files in target directory:"
-      dir "$(System.DefaultWorkingDirectory)/SynthAPI/target"
+      dir "$(System.DefaultWorkingDirectory)/target"
     displayName: 'Check target directory for JAR'
 
   - task: CopyFiles@2
     displayName: 'Copy Files to: $(build.artifactstagingdirectory)'
     inputs:
-      SourceFolder: '$(system.defaultworkingdirectory)/SynthAPI/target'
+      SourceFolder: '$(system.defaultworkingdirectory)/target'
       Contents: '*.jar'
       TargetFolder: '$(build.artifactstagingdirectory)'
     condition: succeededOrFailed()
@@ -54,4 +54,4 @@ steps:
       azureSubscription: 'Azure for Students (ac9ade9d-773a-4b2c-a1c6-424c1d25234a)'
       appType: 'webApp'
       WebAppName: 'cgenius'
-      package: '$(Build.ArtifactStagingDirectory)/maindev-0.0.1-SNAPSHOT.war'
+      package: '$(Build.ArtifactStagingDirectory)/maindev-0.0.1-SNAPSHOT.jar'
