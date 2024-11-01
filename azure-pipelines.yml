@@ -7,7 +7,7 @@ pool:
 steps:
   - task: Maven@4
     inputs:
-      mavenPomFile: 'maindev/pom.xml'
+      mavenPomFile: 'pom.xml'
       mavenOptions: '-Xmx3072m'
       javaHomeOption: 'JDKVersion'
       jdkVersionOption: '1.17'
@@ -18,13 +18,13 @@ steps:
 
   - script: |
       echo "Listing files in target directory:"
-      dir "$(System.DefaultWorkingDirectory)/maindev/target"
+      dir "$(System.DefaultWorkingDirectory)/target/*.war"
     displayName: 'Check target directory for JAR'
 
   - task: CopyFiles@2
     displayName: 'Copy Files to: $(build.artifactstagingdirectory)'
     inputs:
-      SourceFolder: '$(system.defaultworkingdirectory)/maindev/target'
+      SourceFolder: '$(system.defaultworkingdirectory)/target'
       Contents: '*.jar'
       TargetFolder: '$(build.artifactstagingdirectory)'
     condition: succeededOrFailed()
@@ -46,4 +46,4 @@ steps:
       azureSubscription: 'Azure for Students (ac9ade9d-773a-4b2c-a1c6-424c1d25234a)'
       appType: 'webApp'
       WebAppName: 'cgenius'
-      package: '$(build.artifactstagingdirectory)/*.jar'
+      package: '$(build.artifactstagingdirectory)/*.war'
