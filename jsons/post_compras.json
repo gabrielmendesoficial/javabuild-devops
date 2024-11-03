@@ -1,0 +1,29 @@
+{
+  "compraId": 12345,
+  "cliente": {
+    "clienteId": 98765,
+    "nome": "João Silva",
+    "cpf": "123.456.789-00",
+    "segmento": "Premium",
+    "interesses": "Tecnologia, Viagens, Investimentos",
+    "gastosMensais": 5000,
+    "salario": 10000,
+    "tipoCartaoCredito": "Platinum",
+    "gastoMensalCartao": 3000,
+    "viajaFrequentemente": true,
+    "profissao": "Engenheiro de Software",
+    "rendaMensal": 12000,
+    "dependentes": 2,
+    "genero": "Masculino",
+    "dataNascimento": "1985-06-15",
+    "idade": 39
+  },
+  "produto": "Smartphone",
+  "categoria": "Eletrônicos",
+  "dataCompra": "2024-11-03",
+  "valorCompra": 3500,
+  "quantidadeParcelas": 10,
+  "dataUltimaCompra": "2024-10-15",
+  "produtoIndicado": "Fones de Ouvido Bluetooth",
+  "statusIndicacao": "Aceito"
+}
