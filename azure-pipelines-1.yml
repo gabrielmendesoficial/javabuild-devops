@@ -44,8 +44,8 @@ stages:
   dependsOn: Build
   condition: succeeded()
   jobs:
-  - deployment: DeployLinuxWebApp
-    displayName: Deploy Linux Web App
+  - deployment: DeployWebApp
+    displayName: Deploy Web App
     environment: $(environmentName)
     pool:
       vmImage: $(vmImageName)
