@@ -26,6 +26,8 @@ Os operadores de call center frequentemente enfrentam desafios relacionados ao t
 ## Solução
 A IA utiliza informações dos clientes, permitindo a geração automática de textos que ajudam os operadores a se comunicarem de forma mais eficiente. Por exemplo, a IA pode sugerir produtos com base nos interesses e histórico de compras do cliente, facilitando o processo de venda e aumentando a satisfação do cliente.
 
+Neste projeto, você terá um CRUD com todos os dados já tratados pela IA e vinculado a Clientes.
+
 ## Custos de Operação da IA
 Os custos de operação da IA incluem:
 
