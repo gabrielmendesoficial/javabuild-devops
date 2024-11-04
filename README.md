@@ -14,6 +14,8 @@ RM99578 - Marcos Garrido
 ## Foco do Projeto
 O objetivo deste projeto é desenvolver uma inteligência artificial (IA) que auxilia operadores de call center na geração de textos a partir de informações dos clientes. Isso permite que os operadores ofereçam um atendimento mais eficiente e personalizado.
 
+Para mais detalhes sobre, entre na pasta "docs" do repositorio, onde a nossa documentação completa sobre o projeto está presente
+
 ## Problema a Resolver
 Os operadores de call center frequentemente enfrentam desafios relacionados ao tempo de resposta e à personalização do atendimento. A falta de informações consolidadas sobre os clientes pode levar a interações menos satisfatórias e à perda de oportunidades de venda. A nossa solução visa otimizar esse processo.
 
@@ -22,9 +24,7 @@ Os operadores de call center frequentemente enfrentam desafios relacionados ao t
  - [Link para o repositorio de IA no Github](https://github.com/gabrielmendesoficial/cgeniusIA)
 
 ## Solução
-A IA utiliza informações dos clientes, permitindo a geração automática de textos que ajudam os operadores a se comunicarem de forma mais eficiente. Por exemplo, a IA pode sugerir produtos com base nos interesses e histórico de compras do cliente, facilitando o processo de venda e aumentando a satisfação do cliente.
-
-Neste projeto, você terá um CRUD com todos os dados já tratados pela IA e vinculado a Clientes.
+A IA utiliza informações dos clientes, permitindo a geração automática de textos que ajudam os operadores a se comunicarem de forma mais eficiente. Por exemplo, a IA pode sugerir produtos com base nos interesses e histórico de compras do cliente, facilitando o processo de venda e aumentando a satisfação do cliente. (Neste projeto, você terá um CRUD com todos os dados já tratados pela IA e vinculado a Clientes.)
 
 ## Custos de Operação da IA
 Os custos de operação da IA incluem:
