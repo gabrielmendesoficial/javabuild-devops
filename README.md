@@ -9,8 +9,6 @@ RM99814 - Anna Soares
 
 RM551423 - Izabelly Oliveira
 
-RM551604 - Lucas Monte 
-
 RM99578 - Marcos Garrido
 
 ## Foco do Projeto
